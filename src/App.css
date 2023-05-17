@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+.container1{
+ 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 98%;
+  grid-gap: 40px;
+}
+body{
+  background-color:#5050cf;
+}
+.createuser{
+  margin: auto;
+}
+.card-title{
+  font-weight: bold;
+  color: white;
+}
+.card-body h4 {
+  color: yellow;
+}
