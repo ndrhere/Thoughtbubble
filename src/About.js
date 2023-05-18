@@ -42,7 +42,7 @@ const About = () => {
       dairy.ewakingTime,
       dairy.esleepingTime
     );
-    showAlert("Dairy updated successfully", "Success" )
+   
     refClose.current.click();
     e.preventDefault();
   };

@@ -162,9 +162,9 @@ async(req, res)=>{
 
 //Ans: Yes, that's correct. In the code Dairy.findOneAndUpdate({_id: dairyId, userId}, dairyToUpdate, { new: true });, _id: dairyId and userId are two separate fields that we are using to query the dairy that we want to update. We are specifying both the dairy ID and the user ID to ensure that we are only updating the dairy that belongs to the currently logged-in user.
  if(!dairy){
-  res.status(404).json({error: 'Dairy not found'})
+   return res.status(404).json({error: 'Dairy not found'})
  }
- res.send(dairy);
+    return res.send(dairy);
 
 })
 

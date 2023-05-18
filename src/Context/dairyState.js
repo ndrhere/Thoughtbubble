@@ -79,12 +79,13 @@ const response = await fetch(`${port}/updateDairy/${id}`, {
 })
 
 const json = await response.json()
+console.log(json)
 //Q. How is newDairy an array ? It must be an object. Right becuse JSON.parse changes a javaScript string into an object. Right ?
 //JSON.parse changes a javaScript string back to an array of object. when we are getting data as response.json() we are actually getting it in json() format which is an array of object.
 
-setDairies(json)
+const newDairy = [...dairies]
 
-const newDairy = JSON.parse(JSON.stringify(dairies))
+
 for(let index=0; index<newDairy.length;index++){
   const element = newDairy[index]
   if(element._id === id){
@@ -99,7 +100,11 @@ for(let index=0; index<newDairy.length;index++){
   
 }
     setDairies(newDairy);
+    showAlert("Dairy updated successfully", "success" )
 }
+
+
+
 
 const deleteDairy = async (id) =>{
   console.log("Deleting the dairy with id", id);
