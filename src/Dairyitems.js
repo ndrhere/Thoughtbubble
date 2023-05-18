@@ -25,8 +25,7 @@ const Dairyitems = (props) => {
           <h6 className="card-title"><h4>Sleeping Time:</h4> {sleepingTime}</h6>
           <h6 className="card-title"><h4>Favourite People:</h4> {favouritepersonoftheDay}</h6>
           <h6 className="card-title"><h4>Eating Habits:</h4> {eatingHabits}</h6>
-          <h6 className="card-subtitle mb-2 text-body-secondary"></h6>
-           <p className="card-text">
+          <p className="card-text">
           <h6 style={{color:"white", fontWeight:"bold"}}><h4 style={{color:'yellow'}}>Important Events:</h4> {ImportantEvents}</h6>
           </p>
           <i style={{color:"yellow"}}
