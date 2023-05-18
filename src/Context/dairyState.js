@@ -17,18 +17,7 @@ const DairyState = (props) => {
   }, 2000)
 };
 
-  const [mode, setMode] = useState('light')
-
-  const modeChanger = () =>{
-    if(mode==='light'){
-      setMode('dark')
-      document.body.style.backgroundColor = "rgba(52,53,65,1)";
-    }else{
-      setMode('light')
-      document.body.style.backgroundColor = "white";
-    }
-  }
-  // const {id} = useParams()
+ // const {id} = useParams()
   const port = "http://localhost:4000";
   const [dairies, setDairies] = useState([]);
 
@@ -140,7 +129,7 @@ const deleteDairy = async (id) =>{
 
   return (
     <div>
-      <DairyContext.Provider value = {{addDairy, fetchDairy, dairies, deleteDairy, updateDairy, mode, modeChanger, alert, showAlert}}>
+      <DairyContext.Provider value = {{addDairy, fetchDairy, dairies, deleteDairy, updateDairy, alert, showAlert}}>
         
         {props.children}
       </DairyContext.Provider>

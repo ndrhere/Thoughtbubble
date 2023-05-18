@@ -8,10 +8,11 @@ import { useState } from "react";
 
 const About = () => {
   const context = useContext(dairyContext);
-  const { fetchDairy, dairies, updateDairy, showAlert } = context;
+  const { fetchDairy, dairies, updateDairy } = context;
 
   useEffect(() => {
     fetchDairy();
+     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const editDairy = (currentDairy) => {

@@ -31,27 +31,27 @@ showAlert("Dairy added successfully", "success")
 <div className="container1 mx-2" style={{paddingTop:"40px"}} >
 <div className=" my-4 container2">
   <label style={{color:"white", fontWeight:"bold"}}htmlFor="exampleFormControlInput1" className="form-label"><h4>Day</h4></label>
-  <input type="datetime-local" className="form-control" id="exampleFormControlInput1" name="day" onChange={handleChange} style={{ backgroundColor: mode === 'light' ? 'white' : 'rgba(52,53,65,1)', color: mode==='light'?'black':'white' }} />
+  <input type="datetime-local" className="form-control" id="exampleFormControlInput1" name="day" onChange={handleChange} style={{ backgroundColor: "white"}} />
 </div>
 <div className=" my-4">
   <label style={{color:"white", fontWeight:"bold"}}htmlFor="exampleFormControlInput1" className="form-label"><h4>Waking Time</h4></label>
-  <input type="text" className="form-control" id="exampleFormControlInput1" name="wakingTime"onChange={handleChange}style={{ backgroundColor: mode === 'light' ? 'white' : 'rgba(52,53,65,1)', color: mode==='light'?'black':'white' }}/>
+  <input type="text" className="form-control" id="exampleFormControlInput1" name="wakingTime"onChange={handleChange}style={{ backgroundColor: "white" }}/>
 </div>
 <div className=" my-4">
   <label style={{color:"white", fontWeight:"bold"}}htmlFor="exampleFormControlInput1" className="form-label"><h4>Sleeping Time</h4></label>
-  <input type="text" className="form-control" id="exampleFormControlInput1" name="sleepingTime"onChange={handleChange}style={{ backgroundColor: mode === 'light' ? 'white' : 'rgba(52,53,65,1)', color: mode==='light'?'black':'white' }}/>
+  <input type="text" className="form-control" id="exampleFormControlInput1" name="sleepingTime"onChange={handleChange}style={{ backgroundColor: "white" }}/>
 </div>
 <div className=" my-4">
   <label style={{color:"white", fontWeight:"bold"}}htmlFor="exampleFormControlInput1" className="form-label"><h4>Favourite Person of the Day</h4></label>
-  <input type="text" className="form-control" id="exampleFormControlInput1" name="favouritepersonoftheDay"onChange={handleChange}style={{ backgroundColor: mode === 'light' ? 'white' : 'rgba(52,53,65,1)', color: mode==='light'?'black':'white' }}/>
+  <input type="text" className="form-control" id="exampleFormControlInput1" name="favouritepersonoftheDay"onChange={handleChange}style={{ backgroundColor: "white" }}/>
 </div>
 <div className="mb-3">
   <label style={{color:"white", fontWeight:"bold"}}htmlFor="exampleFormControlTextarea1" className="form-label"><h4>Important Events</h4></label>
-  <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" name="ImportantEvents"onChange={handleChange}style={{ backgroundColor: mode === 'light' ? 'white' : 'rgba(52,53,65,1)', color: mode==='light'?'black':'white' }}></textarea>
+  <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" name="ImportantEvents"onChange={handleChange}style={{ backgroundColor: "white" }}></textarea>
 </div>
 <div className=" my-4">
   <label style={{color:"white", fontWeight:"bold"}}htmlFor="exampleFormControlInput1" className="form-label"><h4>Eating Habits</h4></label>
-  <input type="text" className="form-control" id="exampleFormControlInput1" name="eatingHabits"onChange={handleChange}style={{ backgroundColor: mode === 'light' ? 'white' : 'rgba(52,53,65,1)', color: mode==='light'?'black':'white' }}/>
+  <input type="text" className="form-control" id="exampleFormControlInput1" name="eatingHabits"onChange={handleChange}style={{ backgroundColor: mode === "white" }}/>
 </div>
 
 </div>
