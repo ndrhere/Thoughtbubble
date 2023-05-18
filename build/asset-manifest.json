@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4410bf74.css",
+    "main.js": "/static/js/main.a49b3a80.js",
+    "static/js/787.201bd189.chunk.js": "/static/js/787.201bd189.chunk.js",
+    "static/media/dairynote2.jpg": "/static/media/dairynote2.f3713146c7cd95243a0f.jpg",
+    "static/media/dairynote3.avif": "/static/media/dairynote3.a7b6994d27350963e42b.avif",
+    "static/media/LogoDairy.jpg": "/static/media/LogoDairy.cf7e1f9adb7fe0cb02d4.jpg",
+    "index.html": "/index.html",
+    "main.4410bf74.css.map": "/static/css/main.4410bf74.css.map",
+    "main.a49b3a80.js.map": "/static/js/main.a49b3a80.js.map",
+    "787.201bd189.chunk.js.map": "/static/js/787.201bd189.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4410bf74.css",
+    "static/js/main.a49b3a80.js"
+  ]
+}
